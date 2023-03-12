@@ -1,1 +1,1 @@
-# odin-recipes
+Una vez haya terminado este proyecto, sabré la bases de HTML, es decir, estructurar la página web (sin diseños, sin lógica)
