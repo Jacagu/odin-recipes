@@ -1,0 +1,105 @@
+/* Estilos generales */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos del encabezado */
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .logo {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  /* Estilos del menú de navegación */
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .menu li a:hover {
+    color: #666;
+  }
+
+/* Estilos adicionales para la página de recetas */
+
+  /* Estilos del encabezado */
+
+.recetas-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .recetas-logo {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  /* Estilos de la imagen de la receta */
+  .receta-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  /* Estilos de los títulos de sección */
+  .receta-titulo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+  }
+  
+  /* Estilos de la lista de ingredientes */
+  .receta-ingredientes {
+    list-style: disc;
+    margin: 0;
+    padding: 0 0 0 40px;
+  }
+  
+  .receta-ingredientes li {
+    margin: 5px 0;
+  }
+  
+  /* Estilos de la lista de pasos */
+  .receta-pasos {
+    list-style: decimal;
+    margin: 0;
+    padding: 0 0 0 40px;
+  }
+  
+  .receta-pasos li {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
